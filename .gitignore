@@ -1,0 +1,40 @@
+# Go - Binaries and compiled files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Common build output directories
+bin/
+out/
+dist/
+
+# Project-specific compiled binaries (add new ones here as you build them)
+# e.g., hello-go
+01-basics/hello-go/hello-go
+
+# Go workspaces
+go.work
+go.work.sum
+
+# Dependency directories (only if vendor/ is not desired in version control)
+vendor/
+
+# IDE / Editor configurations
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.settings/
+
+# Operating System files
+.DS_Store
+Thumbs.db
